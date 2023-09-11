@@ -1,0 +1,43 @@
+body{
+    background:red;
+    color:white;
+}
+#desk{
+   
+}
+#mob{
+   display:none; 
+}
+#tab{
+   display:none; 
+}
+@media(max-width:600px){
+    body{
+        background: yellow;
+        color: chocolate;
+        #mob{
+    display:inline-block;
+}
+#tab{
+    display:none;
+}
+#desk{
+    display:none;
+}
+        
+    }
+}
+@media(min-width:601) and (max-width: 1000){
+    body{
+        background: green;
+    }
+#mob{
+    display:none;
+}
+#tab{
+    display:inline-block;
+}
+#desk{
+    display:none;
+}
+}

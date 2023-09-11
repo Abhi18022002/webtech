@@ -1,0 +1,45 @@
+#red{
+    background: red;
+    position : absolute;
+ 
+    
+    z-index:0;
+}
+#green{
+    background: green;
+    position: absolute;
+    z-index:2;
+    
+}
+#blue{
+    background: blue;
+    position:absolute;
+    z-index:1;
+}
+h1{
+    margin:0;
+}
+div{
+    position:relative;
+}
+h2{
+    margin:0;
+    
+}
+#pink{
+    background: pink;
+    position: absolute;
+    z-index:4;
+}
+#gray{
+    background: gray;
+    position: absolute;
+    z-index:5;
+}
+#black{
+    background: black;
+    position:absolute;
+    z-index:6;
+    top:0%;
+}
+
